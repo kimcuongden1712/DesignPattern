@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34408.163
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Singleton", "Singleton\Singleton.csproj", "{00772ADD-BD41-40E1-BB5E-08EFF388C4E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Creational_Singleton", "Singleton\Creational_Singleton.csproj", "{00772ADD-BD41-40E1-BB5E-08EFF388C4E9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype", "Prototype\Prototype.csproj", "{C66D307D-7ED5-4C52-80E9-6D1EB390F1E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Creational_Prototype", "Prototype\Creational_Prototype.csproj", "{C66D307D-7ED5-4C52-80E9-6D1EB390F1E1}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{C101A0E9-6F94-48CF-9597-A00334A5E853}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Creational_FactoryMethod", "FactoryMethod\Creational_FactoryMethod.csproj", "{C101A0E9-6F94-48CF-9597-A00334A5E853}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{13800815-6BE3-420C-8F27-DB68F1E86ED5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Creational_AbstractFactory", "AbstractFactory\Creational_AbstractFactory.csproj", "{13800815-6BE3-420C-8F27-DB68F1E86ED5}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BuilderPattern", "BuilderPattern\BuilderPattern.csproj", "{6704555C-7DC6-4ED3-B3D6-DC5880A47BE3}"
 EndProject
@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Structural_Adapter", "Struc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Structural_Bridge", "Structural_Bridge\Structural_Bridge.csproj", "{9DFE9BCA-641D-47AE-9A21-228A3FD8996A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Behavioral_StatePattern", "Behavioral_StatePattern\Behavioral_StatePattern.csproj", "{89CB0E1E-5770-470D-B831-9D8FFCC72EC2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Behavioral_StatePattern", "Behavioral_StatePattern\Behavioral_StatePattern.csproj", "{89CB0E1E-5770-470D-B831-9D8FFCC72EC2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Behavioral_StrategyPattern", "Behavioral_StrategyPattern\Behavioral_StrategyPattern.csproj", "{52A473A8-17D8-4ED1-926F-568D7287EB66}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{89CB0E1E-5770-470D-B831-9D8FFCC72EC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89CB0E1E-5770-470D-B831-9D8FFCC72EC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89CB0E1E-5770-470D-B831-9D8FFCC72EC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52A473A8-17D8-4ED1-926F-568D7287EB66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52A473A8-17D8-4ED1-926F-568D7287EB66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52A473A8-17D8-4ED1-926F-568D7287EB66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52A473A8-17D8-4ED1-926F-568D7287EB66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
